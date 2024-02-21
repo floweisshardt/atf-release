@@ -1,0 +1,12 @@
+Source: ros-noetic-atf-core
+Section: misc
+Priority: optional
+Maintainer: Florian Weisshardt <florian.weisshardt@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-atf-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-catkin-tools, python3-lxml, python3-progressbar, ros-noetic-atf-metrics, ros-noetic-atf-msgs, ros-noetic-atf-recorder-plugins, ros-noetic-diagnostic-msgs, ros-noetic-roslaunch, ros-noetic-rospy, ros-noetic-rostest, ros-noetic-smach, ros-noetic-smach-ros
+Description: ATF functionalities for generating tests, recording data, analysing data and aggregating results.
