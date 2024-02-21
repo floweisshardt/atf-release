@@ -1,0 +1,12 @@
+Source: ros-noetic-atf-recorder-plugins
+Section: misc
+Priority: optional
+Maintainer: Florian Weisshardt <florian.weisshardt@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-atf-recorder-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-six, ros-noetic-atf-msgs, ros-noetic-rospy
+Description: Plugins for the ATF recorder.
