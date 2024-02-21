@@ -1,1 +1,0 @@
-ObstacleDistanceLink[] links
