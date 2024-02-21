@@ -1,0 +1,26 @@
+<package format="2">
+    <name>atf</name>
+    <version>0.1.1</version>
+    <description>An automated testing framework (ATF) written for ROS which supports executing integration and system tests, running benchmarks and monitor the code behaviour over time. The ATF provides basic building blocks for easy integration of the tests into your application. Furthermore the ATF provides everything to automate the execution and analysis of tests as well as a graphical web-based frontend to visualize the results.</description>
+
+    <maintainer email="florian.weisshardt@mojin-robotics.de">Florian Weisshardt</maintainer>
+
+    <author email="florian.weisshardt@mojin-robotics.de">Florian Weisshardt</author>
+    <author>Florian Koehler</author>
+
+    <license>Apache 2.0</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <exec_depend>atf_core</exec_depend>
+    <exec_depend>atf_metrics</exec_depend>
+    <exec_depend>atf_msgs</exec_depend>
+    <exec_depend>atf_plotter</exec_depend>
+    <exec_depend>atf_recorder_plugins</exec_depend>
+    <exec_depend>atf_test</exec_depend>
+    <exec_depend>atf_test_tools</exec_depend>
+
+    <export>
+        <metapackage/>
+    </export>
+</package>
