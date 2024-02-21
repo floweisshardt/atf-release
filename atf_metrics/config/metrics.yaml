@@ -1,0 +1,26 @@
+# example:
+#   handler: ExampleParamHandler
+interface:
+  handler: CalculateInterfaceParamHandler
+tf_length_translation:
+  handler: CalculateTfLengthTranslationParamHandler
+tf_length_rotation:
+  handler: CalculateTfLengthRotationParamHandler
+tf_distance_translation:
+  handler: CalculateTfDistanceTranslationParamHandler
+tf_distance_rotation:
+  handler: CalculateTfDistanceRotationParamHandler
+tf_velocity_translation:
+  handler: CalculateTfVelocityTranslationParamHandler
+tf_acceleration_translation:
+  handler: CalculateTfAccelerationTranslationParamHandler
+tf_jerk_translation:
+  handler: CalculateTfJerkTranslationParamHandler
+publish_rate:
+  handler: CalculatePublishRateParamHandler
+time:
+  handler: CalculateTimeParamHandler
+topic_data:
+  handler: CalculateTopicDataParamHandler
+user_result:
+  handler: CalculateUserResultParamHandler
